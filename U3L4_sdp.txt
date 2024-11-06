@@ -1,0 +1,9 @@
+What are the base cases of the binary search algorithm? When do we stop digging?
+How do the arguments of the binary_search function move towards the base case?
+Make some notes about how the pointer should probably move. What should the initial pointer value be? How will the pointer change if the target is to the left? What about to the right?
+Consider the sample list given (1-9). What is the maximum number of steps it would take to find a number in this list using binary search? Compare and contrast the efficiency of binary search with a simple iteration search (search L to R one by one).
+
+1. We stop digging when there is only one element that is left to find
+2. it will go right or left based on order (alphabet or numeric)
+3. The intial pointer value should be in the middle, and the pointer should move left or right closer to where the target is
+4. Nine steps if it was one by one, 4 steps if using binary search
